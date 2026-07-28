@@ -1,4 +1,4 @@
-# Project: Grade Analyzer
+# Project: Input
 # Author: mr dude 
 
 # Input (prompt user for name & age)
