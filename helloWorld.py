@@ -1,4 +1,4 @@
-# Project: Grade Analyzer
+# Project: Hello World
 # Author: mr dude 
 
 print("Greetings, Earthling!")
