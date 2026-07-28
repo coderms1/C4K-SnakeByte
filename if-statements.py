@@ -1,3 +1,6 @@
+# Project: Grade Analyzer
+# Author: mr dude 
+
 sName = input("Enter name: ")
 iUserAge = int(input("Enter age: "))
 
