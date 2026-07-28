@@ -1,23 +1,20 @@
 import turtle
 
-screen = turtle.Screen()
-screen.register_shape("funkyT.gif")
-
 funkyT = turtle.Turtle()
-funkyT.shape("funkyT.gif")
+screen = turtle.Screen()
 
 def moveForward():
-    funkyT.forward(20)
-
+    funkyT.forward(50)
 def turnLeft():
-    funkyT.left(30)
-
+    funkyT.left(90)
 def turnRight():
-    funkyT.right(30)
+    funkyT.right(90)
+def makeCircle():
+    funkyT.circle(100)
 
 screen.onkey(moveForward, "Up")
 screen.onkey(turnLeft, "Left")
 screen.onkey(turnRight, "Right")
-
+screen.onkey(makeCircle, "Down")
 screen.listen()
 turtle.done()
