@@ -1,4 +1,4 @@
-# Project: Grade Analyzer
+# Project: Variables
 # Author: mr dude
 
 # string (words & symbols)
