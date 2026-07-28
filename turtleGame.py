@@ -4,16 +4,18 @@ player = turtle.Turtle()
 
 def moveForward():
     player.forward(20)
-def moveLeft():
+
+def turnLeft():
     player.left(30)
-def moveRight():
+
+def turnRight():
     player.right(30)
 
 screen = turtle.Screen()
 
 screen.onkey(moveForward, "Up")
-screen.onkey(moveLeft, "left")
-screen.onkey(moveRight, "right")
+screen.onkey(turnLeft, "Left")
+screen.onkey(turnRight, "Right")
 
 screen.listen()
 
