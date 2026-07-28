@@ -1,4 +1,4 @@
-# Project: Grade Analyzer
+# Project: If Statements
 # Author: mr dude 
 
 sName = input("Enter name: ")
