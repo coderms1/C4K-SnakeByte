@@ -1,3 +1,6 @@
+# Project: Grade Analyzer
+# Author: mr dude
+
 # string (words & symbols)
 sName = "Mr. Dude"
 # integers (whole numbers)
