@@ -1,10 +1,10 @@
-# C4K - SNAKE BYTE: Python Dungeon Game
+# C4K - 2026: SNAKE-BYTE Python.... Square Chase Game!
 
 import pygame
 import random
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
-pygame.display.set_caption("Python Dungeon")
+pygame.display.set_caption("SQUARE CHASE")
 font = pygame.font.Font(None, 36)
 clock = pygame.time.Clock()
 player = pygame.Rect(375, 275, 40, 40)
@@ -64,6 +64,8 @@ while running:
         if lives <= 0:
             gameOver = True
     screen.fill("black")
+    # Border
+    pygame.draw.line(screen, "white", (0, 60), (800, 60), 2)
     # Score
     scoreText = font.render("Score: " + str(score), True, "white")
     livesText = font.render("Lives: " + str(lives), True, "red")
